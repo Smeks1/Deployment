@@ -1,3 +1,3 @@
 FROM nginx:alpine
 
-COPY index.html /usr/share/nginx/html
+echo "This is my app" > index.html /usr/share/nginx/html
